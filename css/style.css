@@ -27,12 +27,15 @@ p {
   padding: 0;
 }
 .container {
-  display: flex;
+  /* display: flex; */
   width: 1200px;
   align-items: center;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.container-flex {
+  display: flex;
 }
 .link {
   color: inherit;
@@ -121,12 +124,12 @@ p {
   color: var(--primary-color);
   background: var(--accent-text-color);
 }
+.main-section,
+.lessons,
 .features {
-  padding-top: 90px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 .features-list {
-  display: flex;
   list-style-type: none;
 }
 .team-list li:not(:first-child),
@@ -146,13 +149,14 @@ p {
   font-size: 14px;
   line-height: 1.7;
 }
-.lessons,
+
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .lessons-text,
 .team-text {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -162,9 +166,7 @@ p {
 
 .lessons-list,
 .team-list {
-  display: flex;
   list-style-type: none;
-  margin-top: 50px;
 }
 .team {
   background-color: var(--menu-color);
