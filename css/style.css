@@ -185,8 +185,14 @@ button {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-color);
 }
+.team-list-img {
+  display: block;
+}
+.team-list-data {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-list-cap-name {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -194,7 +200,6 @@ button {
 }
 .team-list-cap-pos {
   margin-top: 10px;
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
 }
