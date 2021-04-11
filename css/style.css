@@ -267,23 +267,18 @@ p {
 }
 /* Footer */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--foll-color);
-}
-.footer-container {
-  display: block;
 }
 .footer-map,
 .footer-studio {
   text-decoration: none;
   color: var(--primary-color);
 }
-.footer-studio {
-  display: block;
-  padding-top: 60px;
-}
 .footer-address {
   margin-top: 30px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
